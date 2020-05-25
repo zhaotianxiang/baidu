@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-	mongodb: 'mongodb://tianzhaoruixiang:27017/baidu'
+	mongodb: 'mongodb://ztx:123456@tianzhaoruixiang:27017/baidu'
 };

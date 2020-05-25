@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-	server:'http://192.168.98.116:1337'
+	server:'http://127.0.0.1:1337'
 };

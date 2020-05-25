@@ -4,12 +4,12 @@
 module.exports={
 	jobs:1,
 	srvQueueSize:1000,
-	mongodb:'mongodb://bdaserver:27017/gearman',
+	mongodb:'mongodb://tianzhaoruixiang:27017/gearman',
 	worker:{
-		servers:[{'host':'bdaserver'}]
+		servers:[{'host':'tianzhaoruixiang'}]
 	},
 	client:{
-		servers:[{'host':'bdaserver'}],
+		servers:[{'host':'tianzhaoruixiang'}],
 		loadBalancing: 'RoundRobin'
 	},
 	retry:2

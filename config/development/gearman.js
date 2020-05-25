@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports={
-	jobs:10,
+	jobs:1,
 	srvQueueSize:10000,
 	mongodb:'mongodb://tianzhaoruixiang:27017/gearman',
 	worker:{

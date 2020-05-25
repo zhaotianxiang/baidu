@@ -2,8 +2,8 @@
 'use strict';
 
 module.exports={
-	jobs:1,
-	srvQueueSize:1000,
+	jobs:10,
+	srvQueueSize:10000,
 	mongodb:'mongodb://tianzhaoruixiang:27017/gearman',
 	worker:{
 		servers:[{'host':'tianzhaoruixiang'}]

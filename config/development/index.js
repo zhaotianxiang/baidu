@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports={
-	retry:3,
+	retry:0,
 	logBaseDir:'/var/log/bda/',
 	parsers:['home','list']
 };

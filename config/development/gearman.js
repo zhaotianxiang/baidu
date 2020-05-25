@@ -3,7 +3,7 @@
 
 module.exports={
 	jobs:1,
-	srvQueueSize:10000,
+	srvQueueSize:1,
 	mongodb:'mongodb://tianzhaoruixiang:27017/gearman',
 	worker:{
 		servers:[{'host':'tianzhaoruixiang'}]
